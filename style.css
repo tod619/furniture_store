@@ -115,6 +115,21 @@ body {
     cursor: pointer;
 }
 
+.second-nav {
+    grid-column: 2 / 10;
+    grid-row: 3 /4;
+}
+
+.second-nav-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    list-style: none;
+}
+
+.dropdown {
+    display: none;
+}
+
 
 
 /* End: Navbar */
