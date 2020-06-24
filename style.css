@@ -118,12 +118,24 @@ body {
 .second-nav {
     grid-column: 2 / 10;
     grid-row: 3 /4;
+    border-top: 0.1rem solid #12376e;
+    border-bottom: 0.1rem solid #12376e;
 }
 
 .second-nav-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     list-style: none;
+}
+
+.second-nav-link {
+    text-align: center;
+    display: grid;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #12376e;
+    padding: 0.8rem 0;
 }
 
 .dropdown {
