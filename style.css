@@ -179,6 +179,7 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: all 1s;
+    z-index: 100;
 }
 
 .second-nav-item:first-child:hover .dropdown {
@@ -233,6 +234,7 @@ body {
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     text-align: center;
+    z-index: 50;
 }
 
 .banner-heading {
