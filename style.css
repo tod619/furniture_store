@@ -687,3 +687,36 @@ body {
 }
 
 /* End: Footer */
+
+/* Start: Modal */
+.forms-wrapper {
+    background-color: #eee;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    padding: 2rem;
+    border: 0.1rem solid #34598f;
+    border-radius: 0.3rem;
+}
+
+.show-btns-wrapper {
+    display: flex;
+    padding: 1rem;
+}
+
+.show-form-btn {
+    flex: 0 1 50%;
+    background-color: #12376e;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border: 0.1rem solid #eee;
+    cursor: pointer;
+}
+
+/* End: Modal */
