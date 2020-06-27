@@ -841,3 +841,21 @@ body {
 }
 
 /* End: Modal */
+
+/* Start: Media Queries */
+
+@media(max-width: 1250px) {
+    .banner-heading {
+        font-size: 8rem;
+    }
+
+    .day-offer-heading {
+        font-size: 5rem;
+    }
+
+    .day-offer-paragraph {
+        font-size: 3rem;
+    }
+}
+
+/* End: Media Queries */
