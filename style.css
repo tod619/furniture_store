@@ -699,6 +699,7 @@ body {
     padding: 2rem;
     border: 0.1rem solid #34598f;
     border-radius: 0.3rem;
+    display: none;
 }
 
 .show-btns-wrapper {
@@ -805,6 +806,38 @@ body {
 
 #show-form:checked~.login-form {
     display: block;
+}
+
+#show-hide-forms:checked~.forms-wrapper {
+    display: block;
+    animation: anim 0.5s;
+}
+
+#show-hide-forms:checked~.container {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.first-nav-link label {
+    cursor: pointer;
+}
+
+@keyframes anim {
+    0% {
+        left: 40%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    75% {
+        left: 45%;
+    }
+
+    100% {
+        left: 50%;
+    }
 }
 
 /* End: Modal */
