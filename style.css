@@ -753,4 +753,24 @@ body {
     width: 100%;
 }
 
+.form-btn {
+    width: 35%;
+    background-color: #d38800;
+    color: #fff;
+    letter-spacing: 0.3rem;
+    padding: 1rem;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.x-btn {
+    font-size: 2rem;
+    color: #00154c;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 3.3rem;
+    right: 3.5rem;
+    cursor: pointer;
+}
+
 /* End: Modal */
